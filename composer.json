@@ -1,0 +1,18 @@
+{
+    "name": "dcone/blocks",
+    "version": "1.0.0",
+    "description": "An awesome collection of Gutenberg block addons to build amazing websites easily.",
+    "license": "GPL v2",
+    "autoload": {
+        "psr-4": {
+            "Dcone\\Blocks\\": "inc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Devcone",
+            "email": "contact@devcone.com"
+        }
+    ],
+    "require": {}
+}

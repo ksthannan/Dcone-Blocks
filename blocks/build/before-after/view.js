@@ -1,0 +1,1 @@
+(()=>{var e;(e=jQuery)(window).load((function(){e.fn.BeerSlider=function(e){return e=e||{},this.each((function(){new BeerSlider(this,e)}))},e(".beer-slider").BeerSlider({start:50})}))})();

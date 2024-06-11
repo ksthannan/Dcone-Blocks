@@ -1,0 +1,29 @@
+{
+	"name": "dcone-blocks",
+	"version": "1.0.0",
+	"description": "An awesome collection of Gutenberg block addons to build amazing websites easily.",
+	"author": "Devcone",
+	"license": "GPL-2.0-or-later",
+	"main": "blocks/build/index.js",
+	"scripts": {
+		"start": "wp-scripts start --webpack-src-dir=src/ --output-path=blocks/build/",
+		"build": "wp-scripts build --webpack-src-dir=src/ --output-path=blocks/build/",
+		"start:dynamic": "wp-scripts start --webpack-src-dir=src/ --output-path=blocks/build/ --webpack-copy-php",
+		"build:dynamic": "wp-scripts build --webpack-src-dir=src/ --output-path=blocks/build/ --webpack-copy-php",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^27.9.0"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^13.0.0",
+		"@wordpress/blocks": "^13.0.0",
+		"@wordpress/element": "^6.0.0",
+		"i": "^0.3.7",
+		"npm": "^10.8.1"
+	}
+}

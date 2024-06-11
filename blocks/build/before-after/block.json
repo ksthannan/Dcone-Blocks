@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "dcone-blocks/before-after",
+  "version": "0.1.0",
+  "title": "Before After",
+  "category": "dcone-blocks",
+  "icon": "image-flip-horizontal",
+  "description": "An awesome collection of Gutenberg block addons to build amazing websites easily.",
+  "attributes": {},
+  "example": {},
+  "supports": {
+    "align": true,
+    "className": true,
+    "shadow": true,
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "blockGap": true
+    },
+    "layout": {
+      "type": "default",
+      "allowCustomContentAndWideSize": true,
+      "align": [
+        "wide",
+        "full"
+      ],
+      "contentSize": "auto",
+      "wideSize": "auto"
+    }
+  },
+  "textdomain": "dcone-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
